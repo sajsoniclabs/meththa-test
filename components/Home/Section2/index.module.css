@@ -1,0 +1,38 @@
+.main {
+  margin: 0 50px 80px 50px;
+}
+.tab {
+  display: none;
+}
+.mobile {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .main {
+    margin: 0 50px 80px 50px;
+  }
+  .tab {
+    display: contents;
+  }
+  .web {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+
+  .tab {
+    display: none;
+  }
+  .web {
+    display: none;
+  }
+  .mobile {
+    display: contents;
+  }
+  .main {
+    height: 10vh;
+  }
+}

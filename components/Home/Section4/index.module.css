@@ -1,0 +1,156 @@
+.popupMain {
+  width: 100%;
+  padding: 40px 40px 50px 40px;
+  background-color: #f2f0ec;
+}
+
+.MaintopText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 150%;
+  /* or 51px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #424242;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 25px 0;
+}
+
+.Mainbottom {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.left {
+  width: 50%;
+  background-color: #ffffff;
+  margin: 0 30px 0 0;
+  padding: 10px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 50%;
+  background-color: #ffffff;
+  margin: 0 30px 0 0;
+  padding: 10px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meththalogopic_div {
+  margin-bottom: 10px;
+}
+
+.left_text1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+
+  color: #521818;
+
+  margin-bottom: 20px;
+}
+.left_text2_Donors {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #424242;
+  margin-bottom: 30px;
+}
+
+.left_text3_Donate {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #ffffff;
+
+  background-color: #521818;
+  border-radius: 32px;
+  padding: 5px 15px;
+}
+.left_text2 {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left_text3 {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.bottum_div {
+  margin: 0 50px 0 50px;
+}
+
+@media (max-width: 768px) {
+  .popupMain {
+    width: 100%;
+    padding: 40px 40px 50px 40px;
+  }
+
+  .Mainbottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .left {
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0 0 30px 0;
+  }
+
+  .right {
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0;
+  }
+  .MaintopText {
+    font-size: 28px;
+  }
+}

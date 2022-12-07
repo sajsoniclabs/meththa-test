@@ -1,0 +1,93 @@
+.ml_30{
+    margin-left: 30px;
+}
+
+.header{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    /* margin-left: 20px; */
+    /* background-color: #424242; */
+}
+
+.don_info{
+    margin-top: 30px;
+    padding:10px 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+    -webkit-box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+    -moz-box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+}
+.don_info__{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 30px; */
+
+}
+.don_info__ > span{
+    font-weight: 400;
+    font-size: 14px;
+}
+.don_name_left{
+   display: flex;
+   align-items: center;
+   width: 24%;
+   /* background-color: aqua; */
+   justify-content: space-between;
+   padding: 10px;
+   text-align: center;
+}
+.don_name_left > span {
+font-size: 16px;
+font-weight: 600;
+}
+
+.payment_info {
+    margin-top: 30px;
+    padding:10px 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+    -webkit-box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+    -moz-box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+}
+.payment_feild{
+    display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.payment_feild > span {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.donation_total{
+    font-weight: bold;
+    font-size: 20px;
+}
+.donation_total_number{
+    font-weight: bold;
+    font-size: 20px;
+    color: #521818;
+}
+
+.gift_aid{
+    margin-top: 30px;
+    padding:10px 20px;
+    display: flex;
+    box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+    -webkit-box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+    -moz-box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+    align-items: center;
+    justify-content: space-between;
+}
+.gift_aid > span {
+    font-size: 16px;
+    font-weight: 600;
+}
+.gift_aid > p {
+    font-size: 16px;
+    font-weight: 400;
+}

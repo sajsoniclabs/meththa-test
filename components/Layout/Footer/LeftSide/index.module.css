@@ -1,0 +1,97 @@
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 0 0 50px 0;
+}
+
+.div_1_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+  margin: 0 0 40px 0;
+  color: #ffffff;
+}
+
+.socialMediIcons {
+  display: flex;
+  margin: 0 0 30px 0;
+}
+.iconSize {
+  margin: 0 10px 0 0;
+  height: 26px;
+  width: 26px;
+}
+
+.Donate {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  display: flex;
+  align-items: center;
+  padding: 0 0 25px 0;
+}
+
+.countries {
+  display: flex;
+  align-items: center;
+}
+
+.grid_container {
+  display: grid;
+  gap: 70px;
+  grid-template-columns: 1 1;
+  display: flex;
+
+  margin: 0 0 45px 0;
+}
+
+.header {
+  grid-area: header;
+  margin-bottom: 15px;
+}
+
+.grid_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.tablet_grid_container{
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .div_1_text{
+    margin: 0 0 20px 0;
+  }
+  .socialMediIcons{
+    margin: 0 0 30px 0;
+  }
+  .grid_container{
+    display: none;
+  }
+  .tablet_grid_container{
+    display: block;
+    margin: 0 0 40px 0;
+  }
+  .UK_coutry{
+    margin: 0 0 30px 0;
+  }
+}

@@ -1,0 +1,131 @@
+.main {
+  width: 100%;
+  padding: 60px 40px 0 40px;
+}
+
+.heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 150%;
+  /* or 51px */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 0 30px 0;
+
+  color: #424242;
+}
+.line_div {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meththalogopic {
+  width: 100%;
+}
+.left_div {
+  /* width: 50%; */
+  margin: 0 30px 0 0;
+}
+.right_div {
+  width: 50%;
+}
+.number {
+  width: 35px;
+  border: 1px solid #521818;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 0 20px 0;
+
+  color: #521818;
+}
+.text_heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px 0;
+
+  color: #521818;
+}
+.text_des {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+
+  color: #424242;
+}
+.catergory_1 {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.catergory_2 {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.mobile{
+    display: none;
+}
+
+@media (max-width: 768px) {
+  .web {
+    display: none;
+  }
+  .mobile{
+    display: contents;
+}
+  .line_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .heading{
+    margin:  0 0 40px 0;
+  }
+  .text_des{
+    margin:  0 0 30px 0;
+  }
+  .left_div{
+    margin:  0 0 50px 0;
+  }
+}

@@ -1,0 +1,168 @@
+/* Archivo Font Import */
+/* @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Clash Display Font Import */
+
+:root {
+  --color-primary: #fff;
+  --color-background: #ffffff;
+  --top-nav-color: #010203;
+  --footer-color: #010203;
+  --footer-email-input-box-color: #191919;
+  --input-box-color: #191919;
+  --top-nav-box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12),
+    0px 12px 42px -4px rgba(24, 39, 75, 0.12);
+  --primary-btn-background-color: #f2c862;
+  --primary-btn-text-color: #010203;
+  --primary-input-section-color: #191919;
+  --primary-btn-hover-background-color: #eeb834;
+  --secondary-btn-background-color: #010203;
+  --secondary-btn-text-color: #f2c862;
+  --secondary-btn-hover-background-color: #f2c86220;
+  --tertiary-btn-background-color: #010203;
+  --tertiary-btn-text-color: #f2c862;
+  --service-card-gradient-color-one: #ffffff1f;
+  --service-card-gradient-color-two: #ffffff00;
+  --primary-description-color: #ffffffcc;
+  --offers-tag-backgroud-color: #f2c86233;
+  --offers-text-color: #f2c862;
+  --coin-border-color: #ffffff33;
+  --pagination-button-color: #ffffff60;
+  --deals-cards-color: #191919;
+  --deals-search-color: #ffffff;
+  --deals-dropdown-border-color: rgba(242, 200, 98, 0.2);
+  --deals-dropdown-background-color: #ffffff;
+  --deals-dropdown-list-color: #ffffff;
+  --deals-dropdown-list-hover-color: #f2c862;
+  --color-description: #ffffff80;
+  --color-scrollbar-track: #ffffff30;
+  --binance-card-background-color: linear-gradient(
+    126.6deg,
+    rgba(255, 255, 255, 0.12) 28.69%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  --table-data-color: #12121230;
+  --table-border-color: #f2c86240;
+  --email-autofill-color: #191919;
+  --newsletter-gradient: linear-gradient(
+    126.6deg,
+    rgba(255, 255, 255, 0.12) 28.69%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  --contact-paragraph: #ffffff;
+  --about-us-paragraph-color: #ffffffb2;
+  --color-card-background: #222222ba;
+  --color-card-background-hover: #27272785;
+  --error-message: rgb(255, 144, 144);
+}
+
+[data-theme="light"] {
+  --color-primary: #010203;
+  --color-background: #fff;
+  --top-nav-color: #fff;
+  --footer-color: #f4f4f4;
+  --footer-email-input-box-color: #ffffff;
+  --input-box-color: #f4f4f4;
+  --top-nav-box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12);
+  --primary-btn-background-color: #bb9645;
+  --primary-btn-hover-background-color: #a68130;
+  --primary-btn-text-color: #fff;
+  --primary-input-section-color: #f4f4f4;
+  --secondary-btn-background-color: #ffffff;
+  --secondary-btn-text-color: #bb9645;
+  --secondary-btn-hover-background-color: #bb964520;
+  --tertiary-btn-background-color: #fff;
+  --tertiary-btn-text-color: #bb9645;
+  --service-card-gradient-color-one: #f4f4f4;
+  --service-card-gradient-color-two: #f4f4f4;
+  --primary-description-color: #010203;
+  --offers-tag-backgroud-color: #bb96451a;
+  --offers-text-color: #bb9645;
+  --coin-border-color: #01020333;
+  --deals-cards-color: #f4f4f4;
+  --deals-search-color: #010203;
+  --deals-dropdown-border-color: rgba(187, 150, 69, 0.2);
+  --deals-dropdown-background-color: #010203;
+  --deals-dropdown-list-color: #010203;
+  --deals-dropdown-list-hover-color: #bb9645;
+  --color-description: #01020380;
+  --color-scrollbar-track: #01020330;
+  --pagination-button-color: #19191950;
+  --binance-card-background-color: #f4f4f4;
+  --table-data-color: #fafaf9;
+  --table-border-color: #bb964540;
+  --email-autofill-color: #fff;
+  --newsletter-gradient: #f4f4f4;
+  --contact-paragraph: #010203cc;
+  --about-us-paragraph-color: #010203;
+  --color-card-background: #f4f4f470;
+  --color-card-background-hover: #f4f4f4;
+  --error-message: rgb(184, 63, 63);
+
+  --u-side-bar: #f2f0ec;
+  --u-sidebar-nav-text-bold: #521818;
+  --u-sidebar-nav-text-hover: #f7bfb4;
+  --u-sidebar-nav-text-normal: #424242;
+}
+
+html,
+.Carousel__Container-sc-hyhecw-0 {
+  width: 100%;
+}
+.ArrowButton__Button-sc-1ikb0hj-1 {
+  z-index: 1 !important;
+  top: calc(50%) !important;
+  background-color: var(--footer-email-input-box-color) !important;
+}
+.ArrowButton__Button-sc-1ikb0hj-1::before {
+  border-top: 2px solid var(--primary-btn-background-color) !important;
+  border-right: 2px solid var(--primary-btn-background-color) !important;
+}
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  font-size: 16px;
+  transition: 0.25s;
+}
+
+nav {
+  background-color: var(--top-nav-color);
+  box-shadow: var(--top-nav-box-shadow);
+  transition: 0.25s;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+button,
+select,
+div,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 100px var(--email-autofill-color) inset !important;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: var(--deals-search-color) !important;
+}
+ul > li{
+  color: var(--u-sidebar-nav-text-normal);
+}

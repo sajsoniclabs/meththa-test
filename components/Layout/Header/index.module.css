@@ -1,0 +1,574 @@
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+/* top */
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f7bfb4;
+  padding: 0 3% 0 3%;
+  height: 5vh;
+}
+.icon {
+  color: #521818;
+  margin: 0 12px 0 0;
+  font-size: 22px;
+}
+.socialMediIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.emailDiv {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+  margin: 0 60px 0 0;
+}
+.telDiv {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.emailIcon {
+  color: #521818;
+  margin: 0 15px 0 0;
+}
+.emailText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  display: flex;
+  align-items: center;
+
+  color: #521818;
+}
+/* top */
+
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 3% 0 3%;
+  height: 13vh;
+}
+.meththalogo {
+  width: 66px;
+  height: 73px;
+}
+
+.meththalogopic {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 66px;
+  height: 73px;
+}
+
+/* right div */
+
+.rightDiv {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.divArrowText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 15px;
+}
+.divText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #521818;
+}
+
+/* right div */
+
+.divDonate {
+  background: #521818;
+  border-radius: 32px;
+  cursor: pointer;
+}
+.divDonateText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #ffffff;
+
+  padding: 12px 24px;
+  gap: 8px;
+}
+
+.divSignInText {
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #424242;
+
+  margin: 12px 24px 12px 0px;
+  gap: 8px;
+  width: 60px;
+}
+.popupDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+    top: 40px;
+
+}
+/* .popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+} */
+
+.mainTitle {
+  margin: 0 40px 0 0;
+  cursor: pointer;
+
+  font-size: 16px;
+  line-height: 150%;
+}
+.mainTitleContact {
+  cursor: pointer;
+
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.divMainText {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* margin-left: 10%; */
+}
+
+/* sections */
+/* home */
+.divTitleHome {
+  color: #521818;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 48px;
+  color: #521818;
+}
+
+.divTitleHomeHover {
+  color: #521818;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #521818;
+  width: 48px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.lineHomeHover {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #521818;
+  text-align: center;
+  width: 30px;
+  margin: 0 0 0 7px;
+  transition: 0.5s;
+}
+
+.lineHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  margin: 0 0 0 7px;
+
+  border-bottom: 2px solid white;
+}
+
+/* services */
+.divTitleServices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #521818;
+  width: 98px;
+}
+.divTitleServicesHover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #521818;
+  font-weight: 700;
+  width: 98px;
+  transition: 0.5s;
+}
+
+.lineServicesHover {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #521818;
+  text-align: center;
+  width: 55px;
+  margin: 0 0 0 15px;
+  transition: 0.5s;
+}
+
+.lineServices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  margin: 0 0 0 15px;
+  border-bottom: 2px solid white;
+}
+.arrowicon {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+}
+.arrowiconHover {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  transition: 0.4s;
+  transform: rotateZ(180deg);
+}
+
+/* Funds */
+.divTitleFunds {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #521818;
+  width: 170px;
+}
+.divTitleFundsHover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #521818;
+  width: 170px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.lineFundsHover {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #521818;
+  text-align: center;
+  width: 30px;
+  margin: 0 0 0 60px;
+  transition: 0.5s;
+}
+
+.lineFunds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  margin: 0 0 0 60px;
+  border-bottom: 2px solid white;
+}
+
+/* History */
+.divTitleHistory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #521818;
+  width: 93px;
+}
+
+.divTitleHistoryHover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #521818;
+  font-weight: 700;
+  width: 93px;
+  transition: 0.5s;
+}
+
+.lineHistoryHover {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #521818;
+  text-align: center;
+  width: 30px;
+  margin: 0 0 0 28px;
+  transition: 0.5s;
+}
+
+.lineHistory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  margin: 0 0 0 28px;
+  border-bottom: 2px solid white;
+}
+
+/* Contact */
+.divTitleContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #521818;
+  width: 63px;
+}
+.divTitleContactHover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #521818;
+  width: 63px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.lineContactHover {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #521818;
+  text-align: center;
+  width: 30px;
+  margin: 0 0 0 15px;
+  transition: 0.5s;
+}
+
+.lineContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  margin: 0 0 0 15px;
+  border-bottom: 2px solid white;
+}
+/* sections */
+
+/* option */
+.option {
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 45px rgba(129, 129, 129, 0.1);
+  border-radius: 5px;
+  width: 385px;
+  height: 299px;
+}
+
+.optionHover {
+  display: none;
+}
+
+/* option */
+
+.settingsIcon {
+  display: none;
+}
+
+/* mobile nav */
+.sideNav {
+  display: none;
+}
+.sideNavHide {
+  display: none;
+}
+/* mobile nav */
+.divMainText_tab {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .tab_popup_hover {
+    display: none;
+  }
+  .mainTitle_tab_popup {
+    margin-bottom: 20px;
+  }
+  .lineHistory {
+    display: none;
+  }
+  .lineContact {
+    display: none;
+  }
+  .mainTitle {
+    color: black;
+    cursor: pointer;
+    position: relative;
+  }
+  .tab_popup {
+    position: absolute;
+    top: 40px;
+    left: -90px;
+    padding: 15px 0;
+
+    background-color: #f2f0ec;
+    width: 200px;
+    height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 10px;
+  }
+  .divMainText {
+    display: none;
+  }
+  .divMainText_tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .meththalogo {
+    width: 50px;
+    height: 55px;
+  }
+  .meththalogopic {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 66px;
+    height: 73px;
+  }
+
+  .divMainText {
+    width: 65%;
+  }
+
+  .sideNav {
+    display: none;
+  }
+  .sideNavHide {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .emailText {
+    font-size: 12px;
+  }
+  .text {
+    width: 100%;
+    display: block;
+    justify-content: start;
+    align-items: center;
+  }
+  .divMainText_tab {
+    display: none;
+  }
+  .socialMediIcons {
+    display: none;
+  }
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    height: 55px;
+  }
+
+  .divMainText {
+    display: none;
+  }
+  .divSignInText {
+    display: none;
+  }
+  .divDonate {
+    display: none;
+  }
+  .settingsIcon {
+    display: contents;
+    width: 40px;
+    height: 40px;
+  }
+
+  .sideNav {
+    position: fixed;
+    z-index: 4;
+    top: 0%;
+    right: -0%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    transition: all 0.5s ease;
+    background-color: white;
+  }
+  .sideNavHide {
+    /* z-index: 4; */
+    position: fixed;
+    top: 0%;
+    right: -0%;
+    width: 0%;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    transition: all 0.5s ease;
+  }
+}

@@ -1,0 +1,42 @@
+.popup {
+  width: 80%;
+  height: 300px;
+  background-color: #f7bfb4;
+  position: absolute;
+  right: 10%;
+  left: 10%;
+  top: -215px;
+  display: flex;
+  justify-items: center;
+  border-radius: 5px;
+}
+.main {
+  position: relative;
+  display: flex;
+  padding: 130px 60px 20px 60px;
+  /* height: 100%; */
+  background-color: #424242;
+}
+.left {
+  width: 50%;
+  padding: 0 40px 0 0;
+}
+.right {
+  width: 50%;
+}
+.mob {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .left {
+    display: none;
+  }
+  .right {
+    display: none;
+  }
+  .mob {
+    display: block;
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.optionText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #424242;
+  height: 60px;
+  padding: 0 0 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.optionText:hover {
+  background-color: #f7bfb4;
+  font-weight: 600;
+}

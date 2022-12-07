@@ -1,0 +1,305 @@
+.main {
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 0 5px 0;
+}
+.logoHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+.socialMediIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+  margin: 0 0 20px 0;
+}
+.icon {
+  margin: 0 10px 0 0;
+}
+.newsletter {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 27px */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  margin: 0 0 20px 0;
+}
+
+.email_div {
+  display: flex;
+  align-items: center;
+
+  background: #ffffff;
+  border-radius: 32px;
+  height: 45px;
+
+  padding: 0 0 0 20px;
+  margin: 0 0 25px 0;
+}
+.email_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(66, 66, 66, 0.5);
+}
+
+.email_left {
+  display: flex;
+  align-items: center;
+}
+
+.email_icon {
+  color: #818181;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  margin: 0 15px 0 0;
+}
+.subscribe {
+  background: #f7bfb4;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #521818;
+
+  margin: 0 0 45px 0;
+}
+.Donate {
+  margin: 0 0 40px 0;
+}
+.Donate_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+
+  margin: 0 0 30px 0;
+}
+
+.UK_heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  margin: 0 0 10px 0;
+}
+.UK_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #ffffff;
+  margin: 0 0 30px 0;
+}
+.UK_text_sort {
+  margin-bottom: 5px;
+}
+
+.srilanka_heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #ffffff;
+  margin: 0 0 10px 0;
+}
+.srilanka__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: block;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+  margin: 0 0 30px 0;
+}
+
+.srilanka__text_2 {
+  display: block;
+  text-align: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #ffffff;
+}
+.contact_Heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #ffffff;
+  margin: 0 0 40px 0;
+
+}
+
+.email_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin: 0 0 30px 0;
+}
+
+.email_icon {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 0 10px 0 0;
+}
+
+.email_address{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+.tel_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 30px 0;
+}
+.tel_icon{
+    margin: 0 10px 0 0;
+    font-size: 20px;
+}
+.botton_section_text{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+display: block;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.botton_up_section_text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+display: block;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+margin:  0 0 30px 0;
+}

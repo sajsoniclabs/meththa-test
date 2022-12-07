@@ -1,0 +1,167 @@
+.ad_wrapper{
+    margin-left: 30px;
+    /* background-color: aliceblue; */
+    height: 100vh;
+
+}
+.ad_wrapper > text {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    /* margin-left: 20px; */
+}
+.ad_back_link_button{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    color: #521818;
+    cursor: pointer;
+}
+.ad_back_link_button > p {
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.ad_header {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+.ad_header > text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.ad_header_icon{
+    width: 26px;
+    height: 30px;
+}
+
+.ad_streetad {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.ad_streetad > input {
+    padding:20px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.ad_cityad {
+    display:flex;
+    /* background-color: #521818; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.city_input {
+    display: flex;
+    align-items: center;
+    /* background-color: #521818; */
+    border-bottom: 1px solid black;
+    width: 45%;
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+    position: relative;
+}
+.city_input > input{
+    padding: 20px;
+    border: none;
+    /* background-color: green; */
+    font-size: 16px;
+    margin-top: 10px;
+    
+
+}
+.city_input_icon{
+    /* background-color: violet; */
+}
+.ad_cityad > input {
+    padding: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+.ad_postal_code{
+    width: 45%;
+    /* background-color: aqua; */
+    /* z-index: 2; */
+}
+.button_override{
+    margin-top: 30px;
+    padding:10px 20px;
+    background-color: #521818;
+    color:white;
+    border-radius: 30px;
+    border: none;
+    width: 20%;
+}
+.button_override:hover{
+    cursor: pointer;
+    margin-top: 30px;
+    padding:10px 20px;
+    background-color: #1d0606;
+    color:white;
+    border-radius: 30px;
+    border: none;
+}
+.city_content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* background-color: aliceblue; */
+    padding: 5px 15px;
+    left: 0;
+    width: 100%;
+    top: -3px;
+}
+
+@media screen and (max-width:895px){
+    .ad_cityad {
+        display:flex;
+        flex-direction: column;
+        /* background-color: #1d0606; */
+        /* float: left; */
+        justify-content: flex-start;
+    }
+.button_override{
+    width: 100%;
+}
+.city_input {
+    display: flex;
+    align-items: center;
+    /* background-color: #521818; */
+    border-bottom: 1px solid black;
+    width: 100%;
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+}
+.ad_postal_code{
+    width: 100%;
+    background-color: aqua;
+    /* z-index: 2; */
+}
+.city_content{
+    position : absolute;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    margin-left: -90px;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+    -webkit-box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+    -moz-box-shadow: -6px 7px 37px 10px rgba(202, 201, 201, 0.96);
+}
+}

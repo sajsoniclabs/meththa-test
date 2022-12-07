@@ -1,0 +1,71 @@
+.popupMain {
+  background-color: #f5f5f5;
+  padding: 15px 0 45px 0;
+  border-radius: 5px;
+}
+.close {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 20px;
+  color: black;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+}
+.right {
+  background-color: #ffffff;
+  margin: 0 30px 0 30px;
+  padding: 10px;
+  box-shadow: 0px 16px 45px rgba(129, 129, 129, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.left {
+  background-color: #ffffff;
+  box-shadow: 0px 16px 45px rgba(129, 129, 129, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 30px 0 30px;
+  cursor: pointer;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MaintopText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 150%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #424242;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  display: flex;
+  align-items: center;
+
+  color: #521818;
+  margin-bottom: 20px;
+}
+
+.Mainbottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

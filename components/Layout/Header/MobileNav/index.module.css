@@ -1,0 +1,141 @@
+.main {
+  height: 100vh;
+  padding: 30px 30px 0 30px;
+  animation: identifie 0.5s;
+}
+
+@keyframes identifie {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.mainHover {
+  height: 100%;
+  margin: 40px 30px;
+  animation: identifi 0.5s;
+}
+
+@keyframes identifi {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* top */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.meththalogopic {
+  width: 54px;
+  height: 56px;
+}
+
+.close {
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+
+/* top */
+
+/* middle */
+
+
+.middleText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #424242;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.namehover {
+  font-weight: 700;
+  color: #521818;
+}
+.arrowicon {
+  margin-left: 5px;
+  font-size: 20px;
+}
+.servicewithIcon {
+  display: flex;
+  justify-content: center;
+}
+.line {
+  border-bottom: 1px solid #521818;
+  width: 45px;
+  margin-left: 105px;
+}
+.linehover {
+  display: none;
+}
+
+.option {
+  height: 180px;
+  transition: all 1s;
+}
+
+.optionHover {
+  height: 0px;
+  transition: all 1s;
+}
+
+/* middle */
+
+/* button */
+.signInButton {
+  position: absolute;
+  bottom:70px;
+  width: 80%;
+  margin: 0 20px;
+  color: #521818;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f7bfb4;
+  border-radius: 32px;
+}
+.DonateButton {
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  margin: 0 20px;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #521818;
+  border-radius: 32px;
+}
+/* button */
